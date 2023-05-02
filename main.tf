@@ -8,7 +8,9 @@ terraform {
 
 # Configure the AWS Provider
 provider "aws" {
-  region = "us-east-2"
+  access_key = "AKIA5JE5MNVPBV3ZGWUM"
+  secret_key = "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"
+  region     = "us-east-2"
 }
 
 variable "role_arn" {}
