@@ -5,11 +5,11 @@ terraform {
       version = "~> 4.0"
     }
   }
+}
 
-# Configure the AWS Provider
 provider "aws" {
   access_key = "AKIA5JE5MNVPBV3ZGWUM"
-  secret_key = "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"
+  secret_key = "M20stCzPdLputqub93FrzYfD22xhwAqweCU"
   region     = "us-east-2"
 }
 
