@@ -13,7 +13,7 @@ provider "aws" {
   region     = "us-east-2"
 }
 
-variable "role_arn" {}
+#variable "role_arn" {}
 
 # Create a VPC
 resource "aws_vpc" "example_vpc" {
