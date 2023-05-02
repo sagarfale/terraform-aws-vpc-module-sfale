@@ -10,7 +10,6 @@ terraform {
     key    = "tfstate/terraform.tfstate"
     region = "us-east-2"
   }
-}
 
 # Configure the AWS Provider
 provider "aws" {
