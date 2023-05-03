@@ -5,7 +5,7 @@ terraform {
       version = "~> 4.0"
     }
   }
-    backend "s3" {
+backend "s3" {
     bucket = "sfale-bucket"
     key    = "tfstate/terraform.tfstate"
     region = "us-east-2"
