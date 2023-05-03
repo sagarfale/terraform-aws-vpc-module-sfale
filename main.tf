@@ -7,7 +7,7 @@ terraform {
   }
   backend "s3" {
     bucket         = "sfale-bucket"
-    key            = "my-terraform-state-file"
+    key            = "tfstate/my-terraform-state-file"
     region         = "us-east-2"
   }
 }
