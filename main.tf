@@ -3,7 +3,7 @@ provider "aws" {
   secret_key = "M20stCzPdLputqub93FrzYfD22xhwAqweCU+0cEU"
   region     = "us-west-2"
 }
-
+#
 # Create the VPC
 resource "aws_vpc" "my_vpc" {
   cidr_block = "10.0.0.0/16"
