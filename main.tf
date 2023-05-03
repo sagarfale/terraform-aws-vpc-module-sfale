@@ -5,10 +5,10 @@ terraform {
       version = "~> 4.0"
     }
   }
-backend "s3" {
-    bucket = "sfale-bucket"
-    key    = "tfstate/terraform.tfstate"
-    region = "us-east-2"
+  backend "s3" {
+    bucket         = "sfale-bucket"
+    key            = "my-terraform-state-file"
+    region         = "us-east-2"
   }
 }
 ##
