@@ -6,7 +6,7 @@ terraform {
     }
   }
     backend "s3" {
-    bucket = "sfale-bucket"
+    bucket = "sfale-bucket1"
     key    = "tfstate/terraform.tfstate"
     region = "us-east-2"
   }
